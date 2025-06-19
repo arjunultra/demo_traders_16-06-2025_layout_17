@@ -1,26 +1,3 @@
-<div class="fixed point w0">
-    <a href="https://api.whatsapp.com/send?phone=919999999999">
-        <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
-    </a>
-</div>
-<div class="fixed point1 w0 d-none d-lg-block">
-    <span class="time-of-year">
-        <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
-        <div class="tooltip text-white carter text-center"> For More Details Call <br>
-            <i class="fa fa-phone text-white"></i> +91 99999 99999
-        </div>
-    </span>
-</div>
-<div class="fixed point1 w0 d-lg-none">
-    <a href="tel:+919999999999">
-        <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
-    </a>
-</div>
-<div class="fixed point2">
-    <a href="products.php">
-        <img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
-    </a>
-</div>
 <footer class="fireworks-footer">
     <div class="footer-main pt-5">
         <div class="container">
@@ -140,9 +117,33 @@
                     <p class="copyright text-center">&copy; 2025 Demo Traders. All rights reserved. Designed and
                         Developed by <a class="text-dark bg-warning p-1 rounded-pill"
                             href="https://www.srisoftwarez.com/" target="_blank">Sri
-                            Softwarez</a></p>
+                            Softwarez</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
+<div class="fixed point w0">
+    <a href="https://api.whatsapp.com/send?phone=919999999999">
+        <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
+    </a>
+</div>
+<div class="fixed point1 w0 d-none d-lg-block">
+    <span class="time-of-year">
+        <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+        <div class="tooltip text-white carter text-center"> For More Details Call <br>
+            <i class="fa fa-phone text-white"></i> +91 99999 99999
+        </div>
+    </span>
+</div>
+<div class="fixed point1 w0 d-lg-none">
+    <a href="tel:+919999999999">
+        <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
+    </a>
+</div>
+<div class="fixed point2">
+    <a href="products.php">
+        <img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
+    </a>
+</div>

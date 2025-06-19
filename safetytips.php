@@ -51,7 +51,7 @@
 
             <div class="row">
                 <!-- Do's Column -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4 wow fadeInLeft">
                     <div class="safety-tips-header bg-success text-white p-3 rounded-top">
                         <h2 class="mb-0">
                             <i class="bi bi-check-circle-fill mr-2"></i>
@@ -59,7 +59,8 @@
                         </h2>
                     </div>
 
-                    <div class="safety-tips-card safety-tips-card-do p-4 border border-top-0 rounded-bottom mb-4">
+                    <div
+                        class="safety-tips-card safety-tips-card-do p-4 border border-top-0 rounded-bottom mb-4 hvr-grow d-block">
                         <div class="safety-tips-icon text-success mb-3">
                             <i class="bi bi-shop-window" style="font-size: 2rem;"></i>
                         </div>
@@ -82,7 +83,8 @@
                         </ul>
                     </div>
 
-                    <div class="safety-tips-card safety-tips-card-do p-4 border border-top-0 rounded-bottom mb-4">
+                    <div
+                        class="safety-tips-card safety-tips-card-do p-4 border border-top-0 rounded-bottom mb-4 hvr-grow d-block">
                         <div class="safety-tips-icon text-success mb-3">
                             <i class="bi bi-geo-alt" style="font-size: 2rem;"></i>
                         </div>
@@ -105,7 +107,8 @@
                         </ul>
                     </div>
 
-                    <div class="safety-tips-card safety-tips-card-do p-4 border border-top-0 rounded-bottom mb-4">
+                    <div
+                        class="safety-tips-card safety-tips-card-do p-4 border border-top-0 rounded-bottom mb-4 hvr-grow d-block">
                         <div class="safety-tips-icon text-success mb-3">
                             <i class="bi bi-people" style="font-size: 2rem;"></i>
                         </div>
@@ -130,7 +133,7 @@
                 </div>
 
                 <!-- Don'ts Column -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4 wow fadeInRight" data-wow-delay="0.5s">
                     <div class="safety-tips-header bg-danger text-white p-3 rounded-top">
                         <h2 class="mb-0">
                             <i class="bi bi-x-circle-fill mr-2"></i>
@@ -138,7 +141,8 @@
                         </h2>
                     </div>
 
-                    <div class="safety-tips-card safety-tips-card-dont p-4 border border-top-0 rounded-bottom mb-4">
+                    <div
+                        class="safety-tips-card safety-tips-card-dont p-4 border border-top-0 rounded-bottom mb-4 hvr-grow d-block">
                         <div class="safety-tips-icon text-danger mb-3">
                             <i class="bi bi-exclamation-triangle" style="font-size: 2rem;"></i>
                         </div>
@@ -161,7 +165,8 @@
                         </ul>
                     </div>
 
-                    <div class="safety-tips-card safety-tips-card-dont p-4 border border-top-0 rounded-bottom mb-4">
+                    <div
+                        class="safety-tips-card safety-tips-card-dont p-4 border border-top-0 rounded-bottom mb-4 hvr-grow d-block">
                         <div class="safety-tips-icon text-danger mb-3">
                             <i class="bi bi-cup-straw" style="font-size: 2rem;"></i>
                         </div>
@@ -184,7 +189,8 @@
                         </ul>
                     </div>
 
-                    <div class="safety-tips-card safety-tips-card-dont p-4 border border-top-0 rounded-bottom mb-4">
+                    <div
+                        class="safety-tips-card safety-tips-card-dont p-4 border border-top-0 rounded-bottom mb-4 hvr-grow d-block">
                         <div class="safety-tips-icon text-danger mb-3">
                             <i class="bi bi-trash" style="font-size: 2rem;"></i>
                         </div>

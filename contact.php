@@ -41,100 +41,106 @@ $page = "contact";
         <img class="img-fluid w-100" src="images/contact-banner.webp" alt="demo traders about banner"
             title="Demo Traders">
     </section>
-    <!-- contact section -->
-    <!-- Light Section -->
-    <section class="contact-section contact-light py-5 bg-light">
+    <!-- Contact Hero Section -->
+    <section class="pyro-contact-hero">
         <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-12 col-md-10 col-lg-8 text-center">
-                    <div class="contact-header">
-                        <span class="contact-badge bg-danger text-white p-2 rounded-pill">CONTACT US</span>
-                        <h2 class="contact-title mt-3 text-dark">Get in Touch With Our Fireworks Experts</h2>
-                        <div class="divider mx-auto my-4 bg-danger"></div>
-                        <p class="contact-subtitle text-muted">Reach out for wholesale inquiries, retail purchases, or
-                            safety information about our premium fireworks collection.</p>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="pyro-hero-content wow fadeInUp">
+                        <span class="pyro-hero-badge">Connect With Us</span>
+                        <h1 class="pyro-hero-title">Spark Your Next Celebration</h1>
+                        <p class="pyro-hero-description">
+                            From intimate gatherings to grand festivals, our pyrotechnic artisans craft unforgettable
+                            moments that light up the sky and warm the heart.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Dark Section - Contact Cards -->
-    <section class="contact-section contact-dark py-5 bg-dark">
+    <!-- Contact Information Grid -->
+    <section class="pyro-contact-grid">
         <div class="container">
             <div class="row">
                 <!-- Location Card -->
-                <div class="col-12 col-md-4 col-lg-4 mb-4">
-                    <div class="contact-card h-100 bg-dark-light">
-                        <div class="card-icon bg-danger-light">
-                            <i class="bi bi-geo-alt-fill text-danger"></i>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="pyro-info-card wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pyro-card-glow"></div>
+                        <div class="pyro-card-sparkle"></div>
+                        <div class="pyro-card-icon">
+                            <i class="bi bi-pin-map-fill"></i>
                         </div>
-                        <h3 class="card-title text-white">Our Location</h3>
-                        <div class="card-content">
-                            <address class="text-light">
-                                <strong class="text-white">PyroMasters Fireworks</strong><br>
-                                45 Celebration Avenue<br>
-                                Fireworks District, Sivakasi<br>
-                                Tamil Nadu 626123, India
-                            </address>
-                            <a href="#" class="card-link mt-3 text-danger">View on Map <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Contact Info Card -->
-                <div class="col-12 col-md-4 col-lg-4 mb-4">
-                    <div class="contact-card h-100 bg-dark-light">
-                        <div class="card-icon bg-danger-light">
-                            <i class="bi bi-telephone-fill text-danger"></i>
-                        </div>
-                        <h3 class="card-title text-white">Contact Info</h3>
-                        <div class="card-content">
-                            <div class="contact-method">
-                                <h4 class="text-danger">Phone</h4>
-                                <ul class="list-unstyled">
-                                    <li class="text-light mb-2"><a href="tel:+919876543210" class="text-light">+91 98765
-                                            43210</a> (Retail)</li>
-                                    <li class="text-light"><a href="tel:+919876543211" class="text-light">+91 98765
-                                            43211</a> (Wholesale)</li>
-                                </ul>
-                            </div>
-                            <div class="contact-method mt-4">
-                                <h4 class="text-danger">Email</h4>
-                                <ul class="list-unstyled">
-                                    <li class="text-light mb-2"><a href="mailto:info@pyromasters.com"
-                                            class="text-light">info@pyromasters.com</a></li>
-                                    <li class="text-light"><a href="mailto:sales@pyromasters.com"
-                                            class="text-light">sales@pyromasters.com</a></li>
-                                </ul>
+                        <div class="pyro-card-content">
+                            <h3 class="pyro-card-title">Our Workshop</h3>
+                            <div class="pyro-card-details">
+                                <address class="pyro-address">
+                                    <strong>Demo Traders</strong><br>
+                                    24 Festival Street<br>
+                                    Sivakasi Main Road<br>
+                                    Tamil Nadu 626123
+                                </address>
+                                <a href="#" class="pyro-direction-link">
+                                    <i class="bi bi-compass"></i> Navigate Here
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Hours Card -->
-                <div class="col-12 col-md-4 col-lg-4 mb-4">
-                    <div class="contact-card h-100 bg-dark-light">
-                        <div class="card-icon bg-danger-light">
-                            <i class="bi bi-clock-fill text-danger"></i>
+                <!-- Contact Methods Card -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="pyro-info-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="pyro-card-glow"></div>
+                        <div class="pyro-card-sparkle"></div>
+                        <div class="pyro-card-icon">
+                            <i class="bi bi-chat-dots-fill"></i>
                         </div>
-                        <h3 class="card-title text-white">Business Hours</h3>
-                        <div class="card-content">
-                            <ul class="hours-list list-unstyled">
-                                <li class="text-light mb-3">
-                                    <span class="d-block text-danger">Monday - Friday</span>
-                                    <span>9:00 AM - 8:00 PM</span>
-                                </li>
-                                <li class="text-light mb-3">
-                                    <span class="d-block text-danger">Saturday</span>
-                                    <span>10:00 AM - 6:00 PM</span>
-                                </li>
-                                <li class="text-light">
-                                    <span class="d-block text-danger">Sunday & Holidays</span>
-                                    <span>By Appointment</span>
-                                </li>
-                            </ul>
+                        <div class="pyro-card-content">
+                            <h3 class="pyro-card-title">Quick Contact</h3>
+                            <div class="pyro-card-details">
+                                <div class="pyro-contact-method">
+                                    <span class="pyro-method-label">Sales:</span>
+                                    <a href="tel:+919999999999" class="pyro-contact-link">+91 99999 99999</a>
+                                </div>
+                                <div class="pyro-contact-method">
+                                    <span class="pyro-method-label">Support:</span>
+                                    <a href="tel:+918888888888" class="pyro-contact-link">+91 88888 88888</a>
+                                </div>
+                                <div class="pyro-contact-method">
+                                    <span class="pyro-method-label">Email:</span>
+                                    <a href="mailto:hello@demotraders.com"
+                                        class="pyro-contact-link">hello@demotraders.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Hours Card -->
+                <div class="col-12 col-md-12 col-lg-4 mb-4">
+                    <div class="pyro-info-card wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="pyro-card-glow"></div>
+                        <div class="pyro-card-sparkle"></div>
+                        <div class="pyro-card-icon">
+                            <i class="bi bi-alarm-fill"></i>
+                        </div>
+                        <div class="pyro-card-content">
+                            <h3 class="pyro-card-title">Service Hours</h3>
+                            <div class="pyro-card-details">
+                                <div class="pyro-schedule-item">
+                                    <span class="pyro-day">Mon - Fri</span>
+                                    <span class="pyro-time">9:00 AM - 9:00 PM</span>
+                                </div>
+                                <div class="pyro-schedule-item">
+                                    <span class="pyro-day">Weekends</span>
+                                    <span class="pyro-time">9:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="pyro-festival-hours">
+                                    <i class="bi bi-star-fill"></i>
+                                    Festival Season: 24/7 Available
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,22 +148,73 @@ $page = "contact";
         </div>
     </section>
 
-    <!-- Light Section - Map -->
-    <section class="contact-section contact-light py-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="map-wrapper bg-white shadow-sm">
-                        <div class="map-header d-flex justify-content-between align-items-center mb-3 p-3 bg-light">
-                            <h3 class="map-title text-dark">Our Location</h3>
-                            <a href="https://maps.google.com" class="map-link text-danger" target="_blank">
-                                Open in Maps <i class="bi bi-box-arrow-up-right"></i>
-                            </a>
+    <!-- Location & Visit Information -->
+    <section class="pyro-location-section">
+        <div class="container-fluid px-5">
+            <div class="row align-items-stretch">
+                <!-- Interactive Map -->
+                <div class="col-12 col-md-6 col-lg-8 mb-4 mb-lg-0">
+                    <div class="pyro-map-container wow fadeInLeft">
+                        <div class="pyro-map-overlay">
+                            <div class="pyro-map-info">
+                                <h3 class="pyro-map-title">Visit Our Showroom</h3>
+                                <p class="pyro-map-subtitle">Located in the heart of Sivakasi's fireworks district</p>
+                                <a href="https://www.google.com/maps?q=24+Festival+Street,+Sivakasi+Main+Road,+Tamil+Nadu"
+                                    class="pyro-map-btn" target="_blank">
+                                    <i class="bi bi-geo-alt-fill"></i> Get Directions
+                                </a>
+                            </div>
                         </div>
-                        <div class="map-container">
+                        <div class="pyro-map-embed">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62970.01160346889!2d77.75142297351574!3d9.454179599892328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738684672622!5m2!1sen!2sin"
-                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visit Features -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="pyro-visit-panel wow fadeInRight">
+                        <h3 class="pyro-visit-title">Why Visit Demo Traders?</h3>
+
+                        <div class="pyro-feature-item">
+                            <div class="pyro-feature-icon">
+                                <i class="bi bi-award-fill"></i>
+                            </div>
+                            <div class="pyro-feature-text">
+                                <h4>Premium Quality</h4>
+                                <p>Hand-selected fireworks with guaranteed safety certifications</p>
+                            </div>
+                        </div>
+
+                        <div class="pyro-feature-item">
+                            <div class="pyro-feature-icon">
+                                <i class="bi bi-truck"></i>
+                            </div>
+                            <div class="pyro-feature-text">
+                                <h4>Easy Loading</h4>
+                                <p>Drive-through pickup with professional loading assistance</p>
+                            </div>
+                        </div>
+
+                        <div class="pyro-feature-item">
+                            <div class="pyro-feature-icon">
+                                <i class="bi bi-translate"></i>
+                            </div>
+                            <div class="pyro-feature-text">
+                                <h4>Multi-Language Support</h4>
+                                <p>Fluent in Tamil, English, Hindi, and Telugu</p>
+                            </div>
+                        </div>
+
+                        <div class="pyro-cta-section">
+                            <h4 class="pyro-cta-title">Ready to Order?</h4>
+                            <p class="pyro-cta-text">Browse our extensive catalog or call for custom requirements</p>
+                            <a href="products.php" class="pyro-cta-btn">
+                                <i class="bi bi-collection-fill"></i> View Products
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -165,65 +222,43 @@ $page = "contact";
         </div>
     </section>
 
-    <!-- Dark Section - Visit Info -->
-    <section class="contact-section contact-dark py-5 bg-dark">
+    <!-- Safety & Support Banner -->
+    <section class="pyro-safety-banner">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="visit-info text-center bg-dark-light p-4 rounded">
-                        <h3 class="visit-title text-white mb-4">Why Visit Our Showroom?</h3>
-                        <div class="row">
-                            <div class="col-12 col-md-4 col-lg-4 mb-4">
-                                <div class="visit-feature bg-dark p-4 rounded h-100">
-                                    <div class="feature-icon mb-3 text-danger">
-                                        <i class="bi bi-eye-fill"></i>
-                                    </div>
-                                    <h4 class="text-white">Live Demonstrations</h4>
-                                    <p class="text-light">See our fireworks in action with scheduled shows</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-4 mb-4">
-                                <div class="visit-feature bg-dark p-4 rounded h-100">
-                                    <div class="feature-icon mb-3 text-danger">
-                                        <i class="bi bi-gift-fill"></i>
-                                    </div>
-                                    <h4 class="text-white">Exclusive Offers</h4>
-                                    <p class="text-light">Showroom-only discounts and special packages</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-4 mb-4">
-                                <div class="visit-feature bg-dark p-4 rounded h-100">
-                                    <div class="feature-icon mb-3 text-danger">
-                                        <i class="bi bi-shield-check"></i>
-                                    </div>
-                                    <h4 class="text-white">Safety Training</h4>
-                                    <p class="text-light">Free safety briefings with every purchase</p>
-                                </div>
-                            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="pyro-safety-content wow pulse">
+                        <div class="pyro-safety-icon">
+                            <i class="bi bi-shield-check"></i>
                         </div>
-                        <a href="products.php" class="btn btn-danger btn-lg mt-3">
-                            Browse Our Collection <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <div class="pyro-safety-text">
+                            <h3 class="pyro-safety-title">Your Safety is Our Priority</h3>
+                            <p class="pyro-safety-description">
+                                Every purchase includes comprehensive safety guidelines and expert advice.
+                                Free safety demonstrations available for wholesale orders.
+                            </p>
+                            <a href="safetytips.php" class="pyro-safety-link">
+                                Learn Safety Tips <i class="bi bi-arrow-right-circle-fill"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Footer -->
-    <footer class="contact-footer bg-danger py-3">
+    <div class="footer-bottom py-3 bg-danger">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 text-center">
-                    <p class="copyright text-light mb-0">
-                        &copy; 2025 PyroMasters Fireworks. All rights reserved.
-                        <span class="d-none d-md-inline">|</span>
-                        <span class="d-block d-md-inline">Designed by <a href="https://www.srisoftwarez.com/"
-                                target="_blank" class="text-danger">Sri Softwarez</a></span>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-12 col-lg-12 mb-3 mb-md-0">
+                    <p class="copyright text-center">&copy; 2025 Demo Traders. All rights reserved. Designed and
+                        Developed by <a class="text-dark bg-warning p-1 rounded-pill"
+                            href="https://www.srisoftwarez.com/" target="_blank">Sri
+                            Softwarez</a>
                     </p>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
     <div class="fixed point w0">
         <a href="https://api.whatsapp.com/send?phone=919999999999">
             <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
@@ -256,7 +291,7 @@ $page = "contact";
     <script>
         new WOW().init();
     </script>
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

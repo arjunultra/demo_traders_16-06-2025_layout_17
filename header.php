@@ -26,9 +26,11 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="fireworks-header__logo-wrapper mx-auto">
-                        <div class="fireworks-header__logo-circle">
-                            <img src="images/logo.png" alt="Demo Traders Logo" class="fireworks-header__logo-img">
-                        </div>
+                        <a target="_blank" href="index.php">
+                            <div class="fireworks-header__logo-circle">
+                                <img src="images/logo.png" alt="Demo Traders Logo" class="fireworks-header__logo-img">
+                            </div>
+                        </a>
                         <h1 class="fireworks-header__brand-name mt-3">
                             <span class="text-brand-red">Demo</span>
                             <span class="text-brand-white">Traders</span>
@@ -50,11 +52,13 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg fireworks-header__navbar sticky-top">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="mx-auto">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                    <i class="bi bi-list text-white border border-white py-1 px-3"></i>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav mx-auto text-center">
                     <li class="nav-item px-lg-3 px-2 <?php if ($page == 'home')
                         echo 'active'; ?>">
                         <a class="nav-link" href="index.php">Home</a>

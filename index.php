@@ -53,7 +53,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<!-- Text Content -->
-				<div class="col-12 col-lg-6 order-lg-1 order-2">
+				<div class="col-12 col-md-12 col-lg-6 order-lg-1 order-2">
 					<div class="hero-content wow fadeInLeft" data-wow-delay="0.3s">
 						<h1 class="hero-title mb-4">
 							<span class="title-line">Premium Fireworks</span>
@@ -79,7 +79,7 @@
 				</div>
 
 				<!-- Hero Image -->
-				<div class="col-12 col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0">
+				<div class="col-12 col-md-12 col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0">
 					<div class="hero-image-container wow fadeInRight" data-wow-delay="0.5s">
 						<img src="images/fireworks-hero-whitebg.webp" alt="Colorful fireworks display"
 							class="hero-image hvr-glow">
@@ -94,14 +94,16 @@
 		<!-- Scrolling Indicator -->
 		<div class="scroll-indicator">
 			<div class="scroll-text text-secondary">Explore Products</div>
-			<div class="scroll-arrow hvr-bounce-in">
-				<i class="bi bi-chevron-down text-dark"></i>
-			</div>
+			<a href="index.php#index-products" id="scroll-btn">
+				<div class="scroll-arrow hvr-bounce-in bg-danger text-white px-3 rounded-pill">
+					<i class="bi bi-chevron-down"></i>
+				</div>
+			</a>
 		</div>
 	</section>
 	<!-- index products section -->
 	<!-- Featured Products Section -->
-	<section class="featured-products">
+	<section class="featured-products" id="index-products">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-12">
@@ -134,9 +136,11 @@
 							<p class="product-description">The ultimate showstopper with 48 shots and brilliant colors
 							</p>
 							<div class="product-footer">
-								<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
-									<i class="bi bi-cart-plus"></i> Buy Now
-								</button>
+								<a href="products.php">
+									<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
+										<i class="bi bi-cart-plus"></i> Buy Now
+									</button>
+								</a>
 							</div>
 						</div>
 						<div class="product-sparkle"></div>
@@ -162,9 +166,11 @@
 							</div>
 							<p class="product-description">3-minute golden sparkle fountain with crackling effects</p>
 							<div class="product-footer">
-								<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
-									<i class="bi bi-cart-plus"></i> Buy Now
-								</button>
+								<a href="products.php">
+									<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
+										<i class="bi bi-cart-plus"></i> Buy Now
+									</button>
+								</a>
 							</div>
 						</div>
 						<div class="product-sparkle"></div>
@@ -191,9 +197,11 @@
 							<p class="product-description">12 high-flying rockets with colorful bursts and explosive
 								sound</p>
 							<div class="product-footer">
-								<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
-									<i class="bi bi-cart-plus"></i> Buy Now
-								</button>
+								<a href="products.php">
+									<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
+										<i class="bi bi-cart-plus"></i> Buy Now
+									</button>
+								</a>
 							</div>
 						</div>
 						<div class="product-sparkle"></div>
@@ -219,9 +227,11 @@
 							</div>
 							<p class="product-description">36" long-lasting sparklers (pack of 12)</p>
 							<div class="product-footer">
-								<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
-									<i class="bi bi-cart-plus"></i> Buy Now
-								</button>
+								<a href="products.php">
+									<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
+										<i class="bi bi-cart-plus"></i> Buy Now
+									</button>
+								</a>
 							</div>
 						</div>
 						<div class="product-sparkle"></div>
@@ -248,9 +258,11 @@
 							</div>
 							<p class="product-description">5-shot synchronized roman candle display</p>
 							<div class="product-footer">
-								<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
-									<i class="bi bi-cart-plus"></i> Buy Now
-								</button>
+								<a href="products.php">
+									<button class="btn btn-lg btn-add-to-cart hvr-radial-in">
+										<i class="bi bi-cart-plus"></i> Buy Now
+									</button>
+								</a>
 							</div>
 						</div>
 						<div class="product-sparkle"></div>
@@ -482,29 +494,7 @@
 
 	<?php include_once "footer.php"; ?>
 
-	<div class="fixed point w0">
-		<a href="https://api.whatsapp.com/send?phone=919999999999">
-			<img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
-		</a>
-	</div>
-	<div class="fixed point1 w0 d-none d-lg-block">
-		<span class="time-of-year">
-			<img src="images/callicon.png" class="priceicn float-left" alt="" title="">
-			<div class="tooltip text-white carter text-center"> For More Details Call <br>
-				<i class="fa fa-phone text-white"></i> +91 99999 99999
-			</div>
-		</span>
-	</div>
-	<div class="fixed point1 w0 d-lg-none">
-		<a href="tel:+919999999999">
-			<img src="images/callicon.png" class="priceicn float-left" alt="" title="">
-		</a>
-	</div>
-	<div class="fixed point2">
-		<a href="products.php">
-			<img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="" title="">
-		</a>
-	</div>
+
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
